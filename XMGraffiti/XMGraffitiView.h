@@ -9,5 +9,9 @@
 #import <UIKit/UIKit.h>
 
 @interface XMGraffitiView : UIView
-
+@property (nonatomic, copy) NSString *strokeColor;
+@property (nonatomic, assign) CGFloat lineWidth;
+@property (nonatomic, assign) BOOL isEraser;
+- (void)undo;
+- (void)redo;
 @end

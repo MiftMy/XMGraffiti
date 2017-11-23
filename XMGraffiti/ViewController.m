@@ -10,6 +10,10 @@
 #import "XMGraffitiView.h"
 
 @interface ViewController ()
+{
+}
+@property (weak, nonatomic) IBOutlet XMGraffitiView *graffitiView;
+@property (weak, nonatomic) IBOutlet UISwitch *swBtn;
 
 @end
 
@@ -18,12 +22,17 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view, typically from a nib.
-    XMGraffitiView *view = [[XMGraffitiView alloc]init];
-    [self.view addSubview:view];
-    view.frame = CGRectMake(10, 10, 300, 500);
-    view.backgroundColor = [UIColor yellowColor];
 }
 
+- (IBAction)swValueChanged:(id)sender {
+    self.graffitiView.isEraser = self.swBtn.isOn;
+}
+- (IBAction)undo:(id)sender {
+    [self.graffitiView undo];
+}
+- (IBAction)redo:(id)sender {
+    [self.graffitiView redo];
+}
 
 - (void)didReceiveMemoryWarning {
     [super didReceiveMemoryWarning];

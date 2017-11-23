@@ -16,6 +16,11 @@
 		2C88F5A31FC509BC00F147B8 /* XMGraffitiUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 2C88F5A21FC509BC00F147B8 /* XMGraffitiUITests.m */; };
 		2C88F5AF1FC509E600F147B8 /* XMGraffitiView.m in Sources */ = {isa = PBXBuildFile; fileRef = 2C88F5AE1FC509E600F147B8 /* XMGraffitiView.m */; };
 		2C88F5B21FC5102600F147B8 /* XMGraffitiModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 2C88F5B11FC5102600F147B8 /* XMGraffitiModel.m */; };
+		2CB79C551FC67B590001BB20 /* XMDrawModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 2CB79C541FC67B590001BB20 /* XMDrawModel.m */; };
+		2CB79C5B1FC69CBF0001BB20 /* XMDrawManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 2CB79C591FC69CBE0001BB20 /* XMDrawManager.m */; };
+		2CB79C5E1FC69D380001BB20 /* UIColor_XMColor.m in Sources */ = {isa = PBXBuildFile; fileRef = 2CB79C5D1FC69D380001BB20 /* UIColor_XMColor.m */; };
+		2CB79C611FC6A0840001BB20 /* XMPointModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 2CB79C601FC6A0840001BB20 /* XMPointModel.m */; };
+		2CB79C631FC6A72F0001BB20 /* 2.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 2CB79C621FC6A72F0001BB20 /* 2.jpeg */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -46,6 +51,15 @@
 		2C88F5AE1FC509E600F147B8 /* XMGraffitiView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = XMGraffitiView.m; sourceTree = "<group>"; };
 		2C88F5B01FC5102600F147B8 /* XMGraffitiModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = XMGraffitiModel.h; sourceTree = "<group>"; };
 		2C88F5B11FC5102600F147B8 /* XMGraffitiModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = XMGraffitiModel.m; sourceTree = "<group>"; };
+		2CB79C531FC67B590001BB20 /* XMDrawModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = XMDrawModel.h; sourceTree = "<group>"; };
+		2CB79C541FC67B590001BB20 /* XMDrawModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = XMDrawModel.m; sourceTree = "<group>"; };
+		2CB79C591FC69CBE0001BB20 /* XMDrawManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XMDrawManager.m; sourceTree = "<group>"; };
+		2CB79C5A1FC69CBE0001BB20 /* XMDrawManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XMDrawManager.h; sourceTree = "<group>"; };
+		2CB79C5C1FC69D380001BB20 /* UIColor_XMColor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UIColor_XMColor.h; sourceTree = "<group>"; };
+		2CB79C5D1FC69D380001BB20 /* UIColor_XMColor.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UIColor_XMColor.m; sourceTree = "<group>"; };
+		2CB79C5F1FC6A0840001BB20 /* XMPointModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = XMPointModel.h; sourceTree = "<group>"; };
+		2CB79C601FC6A0840001BB20 /* XMPointModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = XMPointModel.m; sourceTree = "<group>"; };
+		2CB79C621FC6A72F0001BB20 /* 2.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 2.jpeg; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -87,6 +101,7 @@
 		2C88F5881FC509BC00F147B8 /* XMGraffiti */ = {
 			isa = PBXGroup;
 			children = (
+				2CB79C621FC6A72F0001BB20 /* 2.jpeg */,
 				2C88F5891FC509BC00F147B8 /* AppDelegate.h */,
 				2C88F58A1FC509BC00F147B8 /* AppDelegate.m */,
 				2C88F58C1FC509BC00F147B8 /* ViewController.h */,
@@ -94,6 +109,14 @@
 				2C88F58F1FC509BC00F147B8 /* Main.storyboard */,
 				2C88F5AD1FC509E600F147B8 /* XMGraffitiView.h */,
 				2C88F5AE1FC509E600F147B8 /* XMGraffitiView.m */,
+				2CB79C5A1FC69CBE0001BB20 /* XMDrawManager.h */,
+				2CB79C591FC69CBE0001BB20 /* XMDrawManager.m */,
+				2CB79C5C1FC69D380001BB20 /* UIColor_XMColor.h */,
+				2CB79C5D1FC69D380001BB20 /* UIColor_XMColor.m */,
+				2CB79C531FC67B590001BB20 /* XMDrawModel.h */,
+				2CB79C541FC67B590001BB20 /* XMDrawModel.m */,
+				2CB79C5F1FC6A0840001BB20 /* XMPointModel.h */,
+				2CB79C601FC6A0840001BB20 /* XMPointModel.m */,
 				2C88F5B01FC5102600F147B8 /* XMGraffitiModel.h */,
 				2C88F5B11FC5102600F147B8 /* XMGraffitiModel.m */,
 				2C88F5921FC509BC00F147B8 /* Assets.xcassets */,
@@ -195,6 +218,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2CB79C631FC6A72F0001BB20 /* 2.jpeg in Resources */,
 				2C88F5961FC509BC00F147B8 /* LaunchScreen.storyboard in Resources */,
 				2C88F5931FC509BC00F147B8 /* Assets.xcassets in Resources */,
 				2C88F5911FC509BC00F147B8 /* Main.storyboard in Resources */,
@@ -215,10 +239,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2CB79C551FC67B590001BB20 /* XMDrawModel.m in Sources */,
 				2C88F58E1FC509BC00F147B8 /* ViewController.m in Sources */,
 				2C88F5991FC509BC00F147B8 /* main.m in Sources */,
 				2C88F58B1FC509BC00F147B8 /* AppDelegate.m in Sources */,
+				2CB79C5E1FC69D380001BB20 /* UIColor_XMColor.m in Sources */,
 				2C88F5AF1FC509E600F147B8 /* XMGraffitiView.m in Sources */,
+				2CB79C611FC6A0840001BB20 /* XMPointModel.m in Sources */,
+				2CB79C5B1FC69CBF0001BB20 /* XMDrawManager.m in Sources */,
 				2C88F5B21FC5102600F147B8 /* XMGraffitiModel.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
